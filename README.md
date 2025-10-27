@@ -35,9 +35,9 @@ npm run pdf
 
 ## PDF Download
 
-A compiled PDF version of the presentation is available in this repository:
-- **Direct download**: [bitcoin-talk.pdf](site/bitcoin-talk.pdf)
-- **View on GitHub**: The PDF is available in the `site/` directory
+A compiled PDF version of the presentation is automatically generated and available for download from the live site:
+- **Download PDF**: Visit [talks.biscuits.lol](https://talks.biscuits.lol) and look for the download link
+- **GitHub Releases**: PDF will be available as a release asset when versions are tagged
 
 ## Deployment
 
