@@ -26,4 +26,5 @@ Thumbs.db
 
 # Presentation build output
 site/
-*.pdf
+# Keep PDF in repo for distribution (it's small and useful)
+# *.pdf
