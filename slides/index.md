@@ -40,6 +40,6 @@ Notes here
 
 ## References & Repo
 - **Live Slides**: [talks.biscuits.lol](https://talks.biscuits.lol)
-- **Download PDF**: [bitcoin-talk.pdf](bitcoin-talk.pdf)
-- **Source Code**: [github.com/OMGBiscuits/bitcoin-talk](https://github.com/OMGBiscuits/bitcoin-talk)
+- **Download PDF**: [whitepaper-philosophy.pdf](whitepaper-philosophy.pdf)
+- **Source Code**: [github.com/OMGBiscuits/whitepaper-philosophy](https://github.com/OMGBiscuits/whitepaper-philosophy)
 

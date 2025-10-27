@@ -41,8 +41,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ github.event.release.upload_url }}
-          asset_path: site/bitcoin-talk.pdf
-          asset_name: bitcoin-talk.pdf
+          asset_path: site/whitepaper-philosophy.pdf
+          asset_name: whitepaper-philosophy.pdf
           asset_content_type: application/pdf
 
   deploy:

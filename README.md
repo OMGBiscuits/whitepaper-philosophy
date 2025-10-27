@@ -1,4 +1,4 @@
-# bitcoin-talk
+# whitepaper-philosophy
 Bitcoin: A Philosophical Look at the Whitepaper
 
 A presentation exploring Bitcoin from first principles, examining why money needs rules not rulers, and tracing the evolution from social capital to cryptographic capital.
