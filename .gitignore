@@ -25,3 +25,6 @@ Thumbs.db
 .idea/
 .vscode/
 
+# Presentation build output
+site/
+*.pdf
