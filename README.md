@@ -1,7 +1,13 @@
 # bitcoin-talk
 Bitcoin: A Philosophical Look at the Whitepaper
 
-A presentation built with markdown and reveal.js using reveal-md.
+A presentation exploring Bitcoin from first principles, examining why money needs rules not rulers, and tracing the evolution from social capital to cryptographic capital.
+
+## 🎯 Live Presentation
+
+**View the live presentation:** [talks.biscuits.lol](https://talks.biscuits.lol)
+
+Built with markdown and reveal.js using reveal-md.
 
 ## Setup
 
