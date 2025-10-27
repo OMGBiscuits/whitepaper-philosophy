@@ -27,6 +27,12 @@ Generate a PDF (after building):
 npm run pdf
 ```
 
+## PDF Download
+
+A compiled PDF version of the presentation is available in this repository:
+- **Direct download**: [bitcoin-talk.pdf](site/bitcoin-talk.pdf)
+- **View on GitHub**: The PDF is available in the `site/` directory
+
 ## Deployment
 
 This repository automatically deploys to GitHub Pages on push to `main`. See [DEPLOYMENT.md](DEPLOYMENT.md) for setup instructions and custom domain configuration.
