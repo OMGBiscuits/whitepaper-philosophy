@@ -1,0 +1,13 @@
+{
+    "name": "bitcoin-talk",
+    "private": true,
+    "scripts": {
+      "dev": "reveal-md slides/index.md --watch --css slides/theme.css",
+      "build": "reveal-md slides/index.md --static site --assets slides/assets --css slides/theme.css",
+      "pdf": "reveal-md slides/index.md --print site/bitcoin-talk.pdf --css slides/theme.css"
+    },
+    "devDependencies": {
+      "reveal-md": "^6.0.0"
+    }
+  }
+  
