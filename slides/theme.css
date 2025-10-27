@@ -1,0 +1,106 @@
+/* slides/theme.css */
+/* Custom theme for Bitcoin Talk Presentation */
+
+/* Override reveal.js default theme colors */
+.reveal .slides section {
+    color: #2e2e2e;
+}
+
+/* Title slide styling */
+.reveal section.title h1 {
+    font-size: 3.5em;
+    margin-bottom: 0.5em;
+}
+
+.reveal section.title p {
+    font-size: 1.5em;
+    color: #666;
+    font-style: italic;
+    margin-top: 1em;
+}
+
+/* General heading adjustments */
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4 {
+    color: #1a1a1a;
+}
+
+.reveal h2 {
+    border-bottom: 2px solid #f0a000;
+    padding-bottom: 0.3em;
+}
+
+/* List items */
+.reveal ul,
+.reveal ol {
+    text-align: left;
+}
+
+.reveal li {
+    margin: 0.5em 0;
+}
+
+/* Emphasis and strong text */
+.reveal strong {
+    color: #f0a000;
+}
+
+/* Code blocks */
+.reveal pre {
+    width: 100%;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
+}
+
+.reveal code {
+    background-color: #f5f5f5;
+    padding: 0.1em 0.3em;
+    border-radius: 3px;
+    font-size: 0.95em;
+}
+
+/* Notes styling */
+.reveal .progress {
+    color: #f0a000;
+}
+
+/* Blockquote for notes */
+.reveal blockquote {
+    border-left: 4px solid #f0a000;
+    padding-left: 1em;
+    font-style: italic;
+    background: #f9f9f9;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+}
+
+/* Slide transitions - already using 'fade' in your config */
+/* Additional animations */
+
+/* Image centering and sizing */
+.reveal img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom class for special slides */
+.reveal .slide-center {
+    text-align: center;
+}
+
+.reveal .slide-center * {
+    text-align: center;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .reveal h1 {
+        font-size: 2em;
+    }
+    .reveal h2 {
+        font-size: 1.5em;
+    }
+}
