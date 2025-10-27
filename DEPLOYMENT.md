@@ -1,0 +1,116 @@
+# Deployment Guide
+
+This repository is configured to automatically deploy to GitHub Pages using GitHub Actions.
+
+## Initial GitHub Pages Setup
+
+### 1. Push your code to GitHub
+
+```bash
+git add .
+git commit -m "Add presentation files"
+git push origin main
+```
+
+### 2. Enable GitHub Pages
+
+1. Go to your repository on GitHub
+2. Navigate to **Settings → Pages**
+3. Under "Build and deployment":
+   - **Source**: Select "GitHub Actions"
+   - Click **Save**
+
+### 3. Verify Deployment
+
+1. Go to the **Actions** tab in your repository
+2. You should see the "Build & Deploy Slides" workflow running
+3. Once complete, your slides will be live at:
+   ```
+   https://<your-username>.github.io/bitcoin-talk
+   ```
+
+## How It Works
+
+The workflow automatically builds and deploys your presentation on:
+- **Pushes to `main` branch**
+- **Manual workflow runs** (Actions tab → "Build & Deploy Slides" → "Run workflow")
+- **When you create a release**
+
+## Custom Domain Setup
+
+### Step 1: Add Domain to GitHub Pages
+
+1. Go to your repository on GitHub
+2. Navigate to **Settings → Pages**
+3. Enter your custom domain (e.g., `bitcoin-talk.example.com`)
+4. Click **Save**
+
+### Step 2: Create CNAME File
+
+Create a `CNAME` file in your repository root:
+
+```bash
+echo "bitcoin-talk.example.com" > CNAME
+git add CNAME
+git commit -m "Add custom domain"
+git push
+```
+
+### Step 3: Configure DNS
+
+With your domain provider, configure DNS records:
+
+**Option A: CNAME Record (recommended)**
+```
+Type: CNAME
+Name: bitcoin-talk
+Value: <your-username>.github.io
+```
+
+**Option B: A Records**
+```
+Type: A
+Name: bitcoin-talk
+Value: 185.199.108.153
+
+Type: A
+Name: bitcoin-talk
+Value: 185.199.109.153
+
+Type: A
+Name: bitcoin-talk
+Value: 185.199.110.153
+
+Type: A
+Name: bitcoin-talk
+Value: 185.199.111.153
+```
+
+### Step 4: Verify
+
+After DNS propagation (can take up to 24 hours), your custom domain should be accessible.
+
+## Manual Deploy
+
+You can manually trigger a deployment without pushing code:
+
+1. Go to the **Actions** tab
+2. Select "Build & Deploy Slides" workflow
+3. Click "Run workflow"
+4. Select the branch and click "Run workflow"
+
+## Troubleshooting
+
+### Build Fails
+
+- Check the Actions tab for error logs
+- Ensure `package.json` has all required dependencies
+- Verify Node.js version compatibility
+
+### Custom Domain Not Working
+
+- Wait up to 24 hours for DNS propagation
+- Verify DNS records with `dig` or `nslookup`
+- Check that the CNAME file is in the repository root
+- Ensure HTTPS is enabled in GitHub Pages settings
+

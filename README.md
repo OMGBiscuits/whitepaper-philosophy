@@ -26,3 +26,7 @@ Generate a PDF (after building):
 ```bash
 npm run pdf
 ```
+
+## Deployment
+
+This repository automatically deploys to GitHub Pages on push to `main`. See [DEPLOYMENT.md](DEPLOYMENT.md) for setup instructions and custom domain configuration.
