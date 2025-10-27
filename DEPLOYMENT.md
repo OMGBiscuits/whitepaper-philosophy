@@ -26,7 +26,7 @@ git push origin main
 2. You should see the "Build & Deploy Slides" workflow running
 3. Once complete, your slides will be live at:
    ```
-   https://<your-username>.github.io/bitcoin-talk
+   https://talks.biscuits.lol
    ```
 
 ## How It Works
@@ -42,7 +42,7 @@ The workflow automatically builds and deploys your presentation on:
 
 1. Go to your repository on GitHub
 2. Navigate to **Settings → Pages**
-3. Enter your custom domain (e.g., `bitcoin-talk.example.com`)
+3. Enter your custom domain: `talks.biscuits.lol`
 4. Click **Save**
 
 ### Step 2: Create CNAME File
@@ -50,7 +50,7 @@ The workflow automatically builds and deploys your presentation on:
 Create a `CNAME` file in your repository root:
 
 ```bash
-echo "bitcoin-talk.example.com" > CNAME
+echo "talks.biscuits.lol" > CNAME
 git add CNAME
 git commit -m "Add custom domain"
 git push
@@ -63,26 +63,26 @@ With your domain provider, configure DNS records:
 **Option A: CNAME Record (recommended)**
 ```
 Type: CNAME
-Name: bitcoin-talk
-Value: <your-username>.github.io
+Name: talks
+Value: OMGBiscuits.github.io
 ```
 
 **Option B: A Records**
 ```
 Type: A
-Name: bitcoin-talk
+Name: talks
 Value: 185.199.108.153
 
 Type: A
-Name: bitcoin-talk
+Name: talks
 Value: 185.199.109.153
 
 Type: A
-Name: bitcoin-talk
+Name: talks
 Value: 185.199.110.153
 
 Type: A
-Name: bitcoin-talk
+Name: talks
 Value: 185.199.111.153
 ```
 

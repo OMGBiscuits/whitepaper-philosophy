@@ -39,6 +39,6 @@ Notes here
 ---
 
 ## References & Repo
-- Slides: <code><your-pages-url></code>
-- Repo: <code>github.com/&lt;you&gt;/bitcoin-talk</code>
+- Slides: <code>talks.biscuits.lol</code>
+- Repo: <code>github.com/OMGBiscuits/bitcoin-talk</code>
 
