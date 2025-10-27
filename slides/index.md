@@ -39,6 +39,7 @@ Notes here
 ---
 
 ## References & Repo
-- Slides: <code>talks.biscuits.lol</code>
-- Repo: <code>github.com/OMGBiscuits/bitcoin-talk</code>
+- **Live Slides**: [talks.biscuits.lol](https://talks.biscuits.lol)
+- **Download PDF**: [bitcoin-talk.pdf](bitcoin-talk.pdf)
+- **Source Code**: [github.com/OMGBiscuits/bitcoin-talk](https://github.com/OMGBiscuits/bitcoin-talk)
 
