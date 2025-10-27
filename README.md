@@ -9,6 +9,12 @@ A presentation exploring Bitcoin from first principles, examining why money need
 
 Built with markdown and reveal.js using reveal-md.
 
+## Presentation History
+
+| Date | Version | Location/Link |
+|------|---------|---------------|
+| 1st November 2025 | v1.0.0 | [Cyphermunk House Culture of Tech](https://www.cyphermunkhouse.com/culture-of-tech) |
+
 ## Setup
 
 Install dependencies:
