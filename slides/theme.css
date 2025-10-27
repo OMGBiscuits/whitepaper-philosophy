@@ -1,9 +1,14 @@
 /* slides/theme.css */
 /* Custom theme for Bitcoin Talk Presentation */
 
-/* Override reveal.js default theme colors */
+/* Override reveal.js default theme colors for maximum readability */
 .reveal .slides section {
-    color: #2e2e2e;
+    color: #1a1a1a !important;
+    background: #ffffff !important;
+}
+
+.reveal .slides {
+    color: #1a1a1a !important;
 }
 
 /* Title slide styling */
@@ -14,7 +19,7 @@
 
 .reveal section.title p {
     font-size: 1.5em;
-    color: #666;
+    color: #333333 !important;
     font-style: italic;
     margin-top: 1em;
 }
@@ -24,7 +29,8 @@
 .reveal h2,
 .reveal h3,
 .reveal h4 {
-    color: #1a1a1a;
+    color: #000000 !important;
+    font-weight: bold;
 }
 
 .reveal h2 {
@@ -40,6 +46,8 @@
 
 .reveal li {
     margin: 0.5em 0;
+    color: #1a1a1a !important;
+    font-size: 1.1em;
 }
 
 /* Emphasis and strong text */
@@ -73,6 +81,8 @@
     background: #f9f9f9;
     padding: 0.5em 1em;
     border-radius: 4px;
+    color: #1a1a1a !important;
+    font-size: 1.1em;
 }
 
 /* Slide transitions - already using 'fade' in your config */

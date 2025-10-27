@@ -2,9 +2,9 @@
     "name": "whitepaper-philosophy",
     "private": true,
     "scripts": {
-      "dev": "reveal-md slides/index.md --watch --css slides/theme.css",
-      "build": "reveal-md slides/index.md --static site --assets slides/assets --css slides/theme.css",
-      "pdf": "reveal-md slides/index.md --print site/whitepaper-philosophy.pdf --css slides/theme.css"
+      "dev": "reveal-md slides/index.md --watch --css slides/theme.css --theme white",
+      "build": "reveal-md slides/index.md --static site --assets slides/assets --css slides/theme.css --theme white",
+      "pdf": "reveal-md slides/index.md --print site/whitepaper-philosophy.pdf --css slides/theme.css --theme white"
     },
     "devDependencies": {
       "reveal-md": "^6.0.0"
