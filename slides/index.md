@@ -8,25 +8,36 @@ revealOptions:
   progress: true
 ---
 
-# Bitcoin: First Principles
+# The Philosophy of the Whitepaper 
 
-- Opening statements
-
+Code before Words **=** Language Engineering
+ 
 Note:
 These are the opening beats. 
 
 ---
 
-## Second
-- Statements
+## What are we really talking about?
+"How much bitcoin do you have?"
+<img src="assets/images/TwanHuysChristineLagard.jpg" width="300"  style="float:right;">
+
+"What is the value of it?"
+
+<small>*Source: [@SwissHodler on X](https://x.com/SwissHodler/status/1975561828509077913)*  
+*Twan Huys interview with Christine Lagarde, 2 October 2025 at De Nederlandsche Bank, Amsterdam*</small>
+---
+
+## Peer to Peer...
+- **Peer** is a role
+- 
 
 Note:
 Notes here
 
 ---
 
-## Third
-- Statements
+## Completely non-reversible transactions are not really possible
+- Trust is a tax
 
 Note:
 Notes here
