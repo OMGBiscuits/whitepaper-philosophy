@@ -77,6 +77,7 @@ Note: The network timestamps transactions by hashing them into an ongoing chain 
 it's not just proof in isolation
 it's no coincidence that this isn't a powerpoint, github, see commits, see other work.
 earliest writing is ledgers, records of transactions, spreadsheets basically.
+Clay was hard to write but easy to read.
 
 ---
 
