@@ -2,7 +2,8 @@
     "name": "whitepaper-philosophy",
     "private": true,
     "scripts": {
-      "dev": "reveal-md slides/index.md --watch --css slides/theme.css --theme white",
+      "dev": "reveal-md slides/index.md --watch --css slides/theme.css --theme white --port 1948",
+      "start": "node start-presentation.js",
       "build": "reveal-md slides/index.md --static site --assets slides/assets --css slides/theme.css --theme white",
       "pdf": "reveal-md slides/index.md --print site/whitepaper-philosophy.pdf --css slides/theme.css --theme white"
     },

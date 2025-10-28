@@ -24,10 +24,20 @@ npm install
 
 ## Usage
 
-Start the development server with hot reload:
+### Quick Start (Recommended)
+
+Press **F5** in Cursor/VS Code to launch the presentation with auto-reload and automatic browser opening.
+
+Alternatively, start the development server with hot reload from the command line:
+```bash
+npm start
+```
+or
 ```bash
 npm run dev
 ```
+
+### Other Commands
 
 Build a static site:
 ```bash
