@@ -64,6 +64,19 @@ Trust is a **tax**
 Note:
 Why is this important? 
 
+---
+
+## **Ongoing** Proof of Work
+
+Not just the work, but the history of it
+
+<span class="fragment" style="width:50%; float:right;" >![](/assets/images/claytablet.png)</span>
+
+
+Note: The network timestamps transactions by hashing them into an ongoing chain of proof-of-work
+it's not just proof in isolation
+it's no coincidence that this isn't a powerpoint, github, see commits, see other work.
+earliest writing is ledgers, records of transactions, spreadsheets basically.
 
 ---
 
