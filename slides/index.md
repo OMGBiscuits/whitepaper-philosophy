@@ -13,11 +13,15 @@ revealOptions:
 Code before Words **=** Language Engineering
 
 Note:
-This isn’t a paper about computers; it’s a paper about words we already use—and how changing their meanings changes what we can do together.
+What is a WP? a structured document that explains a problem and a solution.
+This isn’t a paper about computers; it’s a paper about words we already use, and how changing their meanings changes what we can do together.
+Meanings of words I want to explore.
+Thus Language Engineering
 
 ---
 
 ## What are we really talking about?
+
 "How much bitcoin do you have?"
 <img src="assets/images/TwanHuysChristineLagard.jpg" width="300"  style="float:right;">
 
@@ -36,6 +40,7 @@ this is not about the whitepaper, but an illustration of how words matter.
 "What is the value of it?"
 value is money amount
 money amount is an expression of needs
+
 ---
 
 ## Peer to Peer...
@@ -53,10 +58,6 @@ Notes here
 Note:
 Why is this important
 
----
-
-<!-- Include an image -->
-![](assets/images/issuance-schedule.png)
 
 ---
 
