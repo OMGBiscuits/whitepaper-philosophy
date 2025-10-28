@@ -23,7 +23,7 @@ Thus Language Engineering
 ## What are we really talking about?
 
 "How much bitcoin do you have?"
-<img src="assets/images/TwanHuysChristineLagard.jpg" width="300"  style="float:right;">
+<img src="assets/images/TwanHuysChristineLagard.jpg" style="width:35%; float:right;">
 
 <span class="fragment">Not possession **but** participation</span>  
 <span class="fragment">**Words** matter</span>  
@@ -58,10 +58,11 @@ Cash is a representation of finality, not an actual item.
 ---
 
 ## Completely non-reversible transactions are not really possible
-- Trust is a **tax**
+Trust is a **tax**
+
 
 Note:
-Why is this important
+Why is this important? 
 
 
 ---
