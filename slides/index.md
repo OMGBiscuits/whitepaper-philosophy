@@ -11,9 +11,9 @@ revealOptions:
 # The Philosophy of the Whitepaper 
 
 Code before Words **=** Language Engineering
- 
+
 Note:
-These are the opening beats. 
+This isn’t a paper about computers; it’s a paper about words we already use—and how changing their meanings changes what we can do together.
 
 ---
 
@@ -21,10 +21,21 @@ These are the opening beats.
 "How much bitcoin do you have?"
 <img src="assets/images/TwanHuysChristineLagard.jpg" width="300"  style="float:right;">
 
-"What is the value of it?"
+<span class="fragment">Not possession **but** participation</span>  
+<span class="fragment">**Words** matter</span>  
 
 <small>*Source: [@SwissHodler on X](https://x.com/SwissHodler/status/1975561828509077913)*  
 *Twan Huys interview with Christine Lagarde, 2 October 2025 at De Nederlandsche Bank, Amsterdam*</small>
+
+Note: 
+from a talk. most interesting, question from host.
+very personal question. 
+it represents a failure for them to price it.
+participation in a rules based network.
+this is not about the whitepaper, but an illustration of how words matter.
+"What is the value of it?"
+value is money amount
+money amount is an expression of needs
 ---
 
 ## Peer to Peer...
@@ -37,10 +48,10 @@ Notes here
 ---
 
 ## Completely non-reversible transactions are not really possible
-- Trust is a tax
+- Trust is a **tax**
 
 Note:
-Notes here
+Why is this important
 
 ---
 
