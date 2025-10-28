@@ -43,12 +43,17 @@ money amount is an expression of needs
 
 ---
 
-## Peer to Peer...
-- **Peer** is a role
-- 
+## A Peer-to-Peer Electronic Cash System
+**Peer** is a role
+**Cash** is a state 
+"Cold Hard Cash"
 
 Note:
-Notes here
+Bitcoin failure is tied to the literal assumption here
+Peers are entities, could be people, could be businesses, could be groups, could be countries
+Bitcoin doesn't care
+Cash is a representation of finality, not an actual item.
+
 
 ---
 
