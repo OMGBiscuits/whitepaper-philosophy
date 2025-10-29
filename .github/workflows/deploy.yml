@@ -29,6 +29,11 @@ jobs:
       - name: Export PDF
         run: npm run pdf
 
+      - name: Export PPTX
+        uses: marp-team/marp-cli-action@v3
+        with:
+          args: slides/index.md --pptx -o site/bitcoin-talk.pptx --allow-local-files
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
@@ -45,6 +50,17 @@ jobs:
           asset_name: whitepaper-philosophy.pdf
           asset_content_type: application/pdf
 
+      - name: Upload PPTX to release
+        if: github.event_name == 'release'
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ github.event.release.upload_url }}
+          asset_path: site/bitcoin-talk.pptx
+          asset_name: bitcoin-talk.pptx
+          asset_content_type: application/vnd.openxmlformats-officedocument.presentationml.presentation
+          
   deploy:
     needs: build
     permissions:

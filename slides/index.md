@@ -84,5 +84,6 @@ Clay was hard to write but easy to read.
 ## References & Repo
 - **Live Slides**: [talks.biscuits.lol](https://talks.biscuits.lol)
 - **Download PDF**: [whitepaper-philosophy.pdf](whitepaper-philosophy.pdf)
+- **Download PPTX**: [bitcoin-talk.pptx](bitcoin-talk.pptx)
 - **Source Code**: [github.com/OMGBiscuits/whitepaper-philosophy](https://github.com/OMGBiscuits/whitepaper-philosophy)
 
