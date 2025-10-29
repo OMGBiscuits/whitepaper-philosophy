@@ -30,7 +30,7 @@ jobs:
         run: npm run pdf
 
       - name: Export PPTX
-        run: npx marp slides/index.md --pptx -o site/bitcoin-talk.pptx --allow-local-files
+        run: npx marp slides/index.md --pptx -o site/whitepaper-philosophy.pptx --allow-local-files
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
@@ -55,8 +55,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ github.event.release.upload_url }}
-          asset_path: site/bitcoin-talk.pptx
-          asset_name: bitcoin-talk.pptx
+          asset_path: site/whitepaper-philosophy.pptx
+          asset_name: whitepaper-philosophy.pptx
           asset_content_type: application/vnd.openxmlformats-officedocument.presentationml.presentation
           
   deploy:
