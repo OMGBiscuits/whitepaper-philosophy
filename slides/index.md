@@ -49,7 +49,8 @@ money amount is an expression of needs
 "Cold Hard Cash"
 
 Note:
-Bitcoin failure is tied to the literal assumption here
+Bitcoins failure is tied to the literal assumption here
+let's dissect.
 Peers are entities, could be people, could be businesses, could be groups, could be countries
 Bitcoin doesn't care
 Cash is a representation of finality, not an actual item.
@@ -58,11 +59,12 @@ Cash is a representation of finality, not an actual item.
 ---
 
 ## Completely non-reversible transactions are not really possible
-Trust is a **tax**
+<span class="fragment">Trust is a **tax**</span>
 
 
 Note:
-Why is this important? 
+Why is this important? or desirable?
+how do you deal with guarantee
 
 ---
 
