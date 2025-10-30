@@ -10,15 +10,23 @@ revealOptions:
 
 # The Philosophy of the Whitepaper 
 
-Code before Words **=** Language Engineering
+
 
 Note:
 What is a WP? a structured document that explains a problem and a solution.
 This isn’t a paper about computers; it’s a paper about words we already use, and how changing their meanings changes what we can do together.
 Meanings of words I want to explore.
-Thus Language Engineering
 
 ---
+
+> "I had to write all the code before I could convince myself that I could solve every problem, then I wrote the paper."
+
+Code before Words **=** Language Engineering
+
+Notes: because it was written before, map not manifesto
+Thus Language Engineering
+---
+
 
 ## What are we really talking about?
 
@@ -43,13 +51,16 @@ money amount is an expression of needs
 
 ---
 
-## A Peer-to-Peer Electronic Cash System
-**Peer** is a role
-**Cash** is a state 
+> A Peer-to-Peer Electronic Cash System
+
+**Peer** is a role<br>
+**Cash** is a state <br>
 "Cold Hard Cash"
 
 Note:
-Bitcoins failure is tied to the literal assumption here
+Bitcoins failure is tied to the literal assumption here.
+Hence forks. (74 at forkdrop.io)
+
 let's dissect.
 Peers are entities, could be people, could be businesses, could be groups, could be countries
 Bitcoin doesn't care
@@ -58,13 +69,25 @@ Cash is a representation of finality, not an actual item.
 
 ---
 
-## Completely non-reversible transactions are not really possible
-<span class="fragment">Trust is a **tax**</span>
+> Completely non-reversible transactions are not really possible
 
+Why is that important?
+non-reversible important for non-reversible services 
 
 Note:
+"since financial institutions cannot avoid mediating disputes"
+large part of the abstract is about solution to the double spend problem
+from the introduction
+"While the system works well enough for
+most transactions, it still suffers from the inherent weaknesses of the trust based model."
 Why is this important? or desirable?
-how do you deal with guarantee
+how do you deal with guarantee - routine escrow
+
+
+---
+### Trust is a **tax**
+
+
 
 ---
 
