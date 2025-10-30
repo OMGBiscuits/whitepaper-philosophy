@@ -100,6 +100,8 @@ A peer is defined by behaviour, not identity
 Finality + Self Custody
 
 Note:
+the primitive thought of cash
+
 Cash is a representation of finality + self custody, not an actual item.
 "Cold Hard Cash" physicality, property
 
@@ -176,6 +178,17 @@ it's not just proof in isolation
 it's no coincidence that this isn't a powerpoint, github, see commits, see other work.
 earliest writing is ledgers, records of transactions, spreadsheets basically.
 Clay was hard to write but easy to read.
+
+---
+
+## What did Satoshi mean?
+
+Am i just putting words in his mouth
+
+Note:
+Could a well-informed skeptic accept these paraphrases after reading the abstract?
+whether you  disagree or think my words could be strengthened, im open to pull requests
+you could even fork this repo, either for the technical infrastructure, the content, or both
 
 ---
 
