@@ -114,3 +114,18 @@
         font-size: 1.5em;
     }
 }
+
+.reveal .img-vh {
+    display: block;
+    margin: 0 auto;
+    object-fit: contain;   /* keep the whole image visible */
+  }
+
+.reveal .h-60vh { height: 60vh; }
+.reveal .h-50vh { height: 50vh; }
+.reveal .h-40vh { height: 40vh; }
+
+.reveal small {
+    font-style: italic;
+    text-align: left;
+}
