@@ -18,6 +18,8 @@ Not a technical look, but a look at some of the language used, our assumptions a
 We’ll examine how a few ordinary words, cash, peer, trust, proof, timestamp, are redefined so new behaviour becomes possible.
 
 Meanings of words I want to explore.
+As I read and re-read the WP, I kept finding more
+This is my first attempt
 What is a WP? a structured document that explains a problem and a solution.
 ---
 
@@ -54,6 +56,7 @@ money amount is an expression of needs
 
 ---
 
+The money in your bank, it's not money, it's not yours, it's not in the bank
 <img src="/assets/images/moneybank.jpg">
 
 ## **Words** matter
@@ -67,18 +70,16 @@ as a child you might have that cash
 
 > A Peer-to-Peer, Electronic Cash System
 
-
+<img src="/assets/images/rogerver.jpg">
 
 Note:
 Key 1
 Bitcoins failure is tied to the literal assumption here.
+Roger Ver's big mistake was reading this too literally
 Hence forks. (74 at forkdrop.io)
 I might have added a comma there
 
 let's dissect.
-
-Bitcoin doesn't care
-
 
 ---
 
@@ -92,6 +93,7 @@ peers are not just the people involved in the transactions
 the nodes the miners 
 Peers could be people, could be businesses, could be groups, could be countries
 A peer is defined by behaviour, not identity
+Bitcoin doesn't care
 
 ---
 
@@ -114,6 +116,7 @@ non-reversible important for non-reversible services
 
 Note:
 "since financial institutions cannot avoid mediating disputes"
+reframes refunds/protections as opt‑in services on top of a predictable base
 large part of the abstract is about solution to the double spend problem
 Full and final settlement reduces seller risk, buyers are protected by contract or escrow
 Why is this important? or desirable?
@@ -125,12 +128,12 @@ how do you deal with guarantee - routine escrow or multisig. consumer protection
 
 Note:
 key 2
+bat, 
 transactions mentioned 69 times in the whitepaper
 but what is a transaction?
 in terms of money?
 then in terms of ideas and products
 then in terms of databases
-
 
 
 ---
@@ -142,16 +145,17 @@ from the introduction
 most transactions, it still suffers from the inherent weaknesses of the trust based model."
 There is a cost to paying for the goods and services
 How do you move out of your local trust based dunbar number to something bigger. Well you trust a larger network
-
-
-
+discretion and chargebacks are valuable *when chosen*, but costly if universal
+refunds/protections as opt‑in services on top of a predictable base
 
 ---
 
 ## You don't have bitcoin
-<span class="fragment">You **own** it</span>
+You **own** it
+
 
 Note:
+this is where the cash analogy breaks down for me
 the transaction is just an update to the database
 you have the pointers to that transaction
 chain of signatures that points to who can spend next
@@ -159,16 +163,10 @@ Proof of Ownership
 
 ---
 
-## Etiquette or OPSEC
-Why privacy?
+## **Ongoing** Proof-of-Work
 
-Note:
-
----
-
-## **Ongoing** Proof of Work
-
-Not just the work, but the history of it
+Not just the work, but the history of it<br>
+A paid‑for memory
 
 <span class="fragment" style="width:50%; float:right;" >![](/assets/images/claytablet.png)</span>
 
@@ -178,16 +176,46 @@ it's not just proof in isolation
 it's no coincidence that this isn't a powerpoint, github, see commits, see other work.
 earliest writing is ledgers, records of transactions, spreadsheets basically.
 Clay was hard to write but easy to read.
+But there's something interesting here, the hyphens
+Satoshi adopting an existing term and nailing down its Bitcoin-specific meaning.
+
+--- 
+
+## Hyphenation signals the new "form of life"
+
+Proof**-**of**-**Work<br>
+Peer**-**to**-**Peer<br>
+
+Note: 
+Wittgenstein, definitions emerge from what he termed forms of life, roughly the culture and society in which they are used.
+The hyphenation is Satoshi giving us that pointer to the new culture
 
 ---
 
-## What did Satoshi mean?
+## Meaning-is-Use
+> the meaning of a word is its use in the language
+<small>*Philosophical Investigations (1953), Ludwig Wittgenstein*</small>
 
-Am i just putting words in his mouth
+Note: 
+the book is about the difficulties of language and meaning
+that's what I've tried to explore here
+LW argues words are how you use it, not it's definition
+the thing that the word stands for does not give the meaning of the word.
+The use fixes the meaning
+Hyphenation ("proof-of-work") binds the new meanings into a single unit of action
+
+---
+
+## Would Wittgenstein be a Bitcoiner?
 
 Note:
-Could a well-informed skeptic accept these paraphrases after reading the abstract?
-whether you  disagree or think my words could be strengthened, im open to pull requests
+not sure, be fascinated a pristine example of how names + rules + public tests (double spend solution) create new social facts
+how engineered langauge, and the code with it, can constitute a new practice
+am I going to far? putting words into Satoshi's mouth?
+I'm just hoping to give you one framework to think about not just the whitepaper but any idea
+
+it's no coincidence that this talk is on github, this is my own proof of work
+whether you disagree or think my words could be strengthened, im open to pull requests
 you could even fork this repo, either for the technical infrastructure, the content, or both
 
 ---
