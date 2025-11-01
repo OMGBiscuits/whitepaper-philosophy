@@ -252,8 +252,6 @@ it's not the language we are used to, and we might have to learn new definitions
 
 ## References & Repo
 - **Live Slides**: [talks.biscuits.lol](https://talks.biscuits.lol)
-- **Download PDF**: [whitepaper-philosophy.pdf](whitepaper-philosophy.pdf)
-- **Download PPTX**: [whitepaper-philosophy.pptx](whitepaper-philosophy.pptx)
 - **Source Code**: [github.com/OMGBiscuits/whitepaper-philosophy](https://github.com/OMGBiscuits/whitepaper-philosophy)
 
 Notes:

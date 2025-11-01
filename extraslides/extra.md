@@ -25,3 +25,6 @@ There is a cost to paying for the goods and services
 How do you move out of your local trust based dunbar number to something bigger. Well you trust a larger network
 discretion and chargebacks are valuable *when chosen*, but costly if universal
 refunds/protections as opt‑in services on top of a predictable base
+
+- **Download PDF**: [whitepaper-philosophy.pdf](whitepaper-philosophy.pdf)
+- **Download PPTX**: [whitepaper-philosophy.pptx](whitepaper-philosophy.pptx)
