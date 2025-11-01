@@ -62,8 +62,9 @@ jobs:
           SERVER_PID=$!
           sleep 3
           
-          # Generate PDF using DeckTape (output to parent directory first, then move)
-          decktape reveal http://localhost:8000/index.html ../whitepaper-philosophy.pdf
+          # Generate PDF using DeckTape with --no-sandbox for CI environment
+          # (output to parent directory first, then move)
+          decktape --chrome-arg=--no-sandbox reveal http://localhost:8000/index.html ../whitepaper-philosophy.pdf
           
           # Stop the server
           kill $SERVER_PID || true
