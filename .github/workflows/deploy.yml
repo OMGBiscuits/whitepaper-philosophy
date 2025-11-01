@@ -28,7 +28,6 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y \
             chromium \
-            chromium-sandbox \
             fonts-liberation \
             libappindicator3-1 \
             libasound2t64 \
