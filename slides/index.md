@@ -246,7 +246,7 @@ how engineered langauge, and the code with it, can constitute a new practice.<br
 This is my view<br>
 I've barely scratched the surface, I've looked at the title and one sentance in the WP in this talk<br>
 I’m offering a frame for reading the paper: inside theres language that does work, code that carries meaning, and a network, a culture that hardens both into practice.<br>
-
+it's not the language we are used to, and we might have to learn new definitions for words and new words entirely from existing words. that's the real challenge
 
 ---
 
